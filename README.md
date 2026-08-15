@@ -208,7 +208,7 @@ public void Insert(TemperatureLog log)
 
 ---
 
-## 运行与演示（面试前必看）
+## 运行与演示
 
 ### 环境要求
 - Windows 10 / 11（150% 缩放已适配，PerMonitorV2 DPI 感知）
@@ -219,7 +219,7 @@ public void Insert(TemperatureLog log)
 运行 bin\Debug\TemperatureMonitor.exe
 ```
 - 可看到主界面（菜单栏 / 温度显示 / 曲线 / 报警灯 / 状态栏）
-- 点"连接"会尝试连 127.0.0.1:502，无设备则状态栏显示"通信中断"（正好演示断线处理）
+- 点"连接"会尝试连 127.0.0.1:502，无设备则状态栏显示"通信中断"
 
 ### 方式二：完整演示（Modbus 从站模拟器 + SECS/GEM 模拟器）
 
@@ -284,7 +284,7 @@ TemperatureMonitor/
 
 ---
 
-## 技术亮点（面试可主动展开）
+## 技术亮点
 
 1. **多线程 + 异步**：WinForms UI 线程模型、async/await 上下文捕获、Task.Run 的正确使用、防重入
 2. **工业通讯**：Modbus 协议帧结构、保持寄存器与 float 转换、大端序；SECS/GEM 的 HSMS 连接与消息收发
@@ -295,7 +295,7 @@ TemperatureMonitor/
 
 ---
 
-## 后续可扩展方向（面试谈发展空间）
+## 后续可扩展方向
 
 - 配方管理（Recipe）：温度曲线配方编辑 / 下发 / 执行
 - 用户权限：操作员 / 工程师 / 管理员三级登录
