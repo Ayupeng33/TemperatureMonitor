@@ -1,0 +1,21 @@
+## 编译输出
+bin/
+obj/
+
+## VS 用户文件
+.vs/
+*.user
+
+## 本地备份（git 历史已足够，无需入库）
+*.bak
+*.bak2
+*.bak_layout
+*.bak_ui
+*.bak_ui2
+*.bak_ui3
+
+## VS 升级日志
+UpgradeLog*.htm
+
+## 打包临时产物
+setup_files/
