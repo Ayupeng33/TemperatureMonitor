@@ -19,3 +19,6 @@ UpgradeLog*.htm
 
 ## 打包临时产物
 setup_files/
+
+## 本地备份（git 历史已足够，无需入库）
+*.bak_old

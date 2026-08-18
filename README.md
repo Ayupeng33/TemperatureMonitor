@@ -5,9 +5,10 @@
 
 ## 界面预览
 
-![主界面](docs/screenshots/main.png)
-
-> 更多界面截图（实时曲线 / 报警闪烁 / SECS-GEM 测试 / 历史查询）持续补充中。
+| 界面截图 | 界面截图 |
+|---|---|
+| ![截图1](docs/screenshots/screenshot1.png) | ![截图2](docs/screenshots/screenshot2.png) |
+| ![截图3](docs/screenshots/screenshot3.png) | ![截图4](docs/screenshots/screenshot4.png) |
 
 ## 核心特性
 
